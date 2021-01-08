@@ -1,8 +1,8 @@
 ## Node/Express project
 
 ### Technologies used
-* _HTML 5_
-* _CSS/Flexbox_
-* _JavaScript_
+* HTML 5
+* CSS/Flexbox
+* JavaScript
 
-[View project here on Heroku]()
+[View project here on Heroku]("https://young-falls-21372.herokuapp.com/")
