@@ -1,0 +1,104 @@
+* {
+ font-family: 'Crimson Text', serif;
+ font-size: .99em;
+ text-align: center;
+}
+hr {
+  width: 80%;
+}
+nav {
+  width: 40%;
+  margin: 0 auto;
+}
+ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
+li {
+  list-style: none;
+  border: 1px solid pink;
+  flex: 1 1 auto;
+}
+.feature {
+  border: 1px solid pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*.creative {
+  border: 1px solid deeppink;
+}*/
+header {
+  font-size: 3rem;
+  /*border: 1px solid lightseagreen;*/
+  margin: 0 auto;
+  padding: 0;
+}
+header h1 {
+  margin: 0 auto;
+  padding: 0;
+}
+img {
+  border: 1px solid lightseagreen;
+  margin-top: 12px;
+}
+.copy {
+  border: 1px solid powderblue;
+  width: 30%;
+}
+.copy h3 {
+  text-align: left;
+  padding-left: 10px;
+}
+.copy p {
+  text-align: left;
+  padding: 10px;
+}
+.posts {
+  display: flex;
+  border: 1px solid lightseagreen;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 16px auto 0 auto;
+}
+article {
+  border: 1px solid pink;
+  width: 25%;
+}
+article a {
+  text-decoration: none;
+}
+article h3 {
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+article p {
+  text-align: left;
+  padding: 0 10px;
+}
+@media screen and (min-width: 300px) and (max-width: 500px){
+  body {
+    background-color: pink;
+  }
+  header h1 {
+    width: 50%;
+    font-size: 2rem;
+  }
+  .feature {
+    display: unset;
+  }
+  .copy {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .posts {
+    display: unset;
+    border: none;
+  }
+  .posts article {
+    width: 70%;
+    margin: 10px auto;
+  }
+}
